@@ -6,7 +6,7 @@
 
 < Choose 1.a or 1.b or both >
 
-### 1.a Create the Package File (IOx Docker App)
+### 1.a Create the Docker Container
 
 ```
 docker build <URL-to-your-repo> -t ioxapp
@@ -14,7 +14,7 @@ docker save ioxapp > ioxapp.tar
 ```
 The [Docker Runtime](https://www.docker.com/products/docker-desktop) needs to be installed on your computer.
 
-### 1.b Create the Package File (IOx App)
+### 1.b Create the IOx Package File
 
 ```
 git clone <URL-to-your-repo>
